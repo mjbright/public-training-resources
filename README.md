@@ -8,6 +8,7 @@ Public scripts and YAML files for use in my trainings &amp; workshops
 
 A Kubernetes installation script which
 - checks pre-requisites are already satsified on all nodes
+  - checks for uniq MAC addresses across all nodes (on main eth or ens interface)
   - swap off
   - password-less sudo
   - master/worker entries in /etc/hosts
